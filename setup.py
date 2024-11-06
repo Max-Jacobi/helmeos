@@ -12,4 +12,5 @@ setup(
     author_email="msbc@astro.princeton.edu",
     packages=["helmeos"],
     description="A Python implementation/port of Frank Timmes' Helmholtz EoS.",
+    package_data={"helmeos": ["helm_table.dat"]},
 )
